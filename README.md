@@ -14,6 +14,7 @@ Proje boyunca:
 
 Bu proje, derin öğrenme tabanlı yüz ifadesi tanımanın temel adımlarını anlamak ve farklı yöntemlerin karşılaştırmasını yapmak için hazırlanmıştır. Teknik detaylar, adım adım açıklamalı şekilde not defteri dosyalarında yer almaktadır.
 
+
 DEĞERLENDİRMELER
 
 Bu projede yalnızca CNN tabanlı bir model tasarlanmış ve yüz ifadelerini sınıflandırmak üzere eğitilmiştir. Eğitim süreci boyunca modelin başarımı, eğitim/doğrulama doğruluğu (accuracy), kayıp değerleri (loss) ve en sonunda ROC–AUC analizi ile ölçülmüştür.
@@ -23,6 +24,7 @@ Bu projede yalnızca CNN tabanlı bir model tasarlanmış ve yüz ifadelerini s�
 •	Optimizer Denemeleri: Adam, RMSprop ve SGD gibi farklı optimizer’lar ile yapılan denemeler sonucunda en iyi doğrulama doğruluğu Adam optimizasyonu ile elde edilmiştir. Bu sonuç, CNN modelinin veri setine en uygun öğrenme stratejisini bu optimizer ile yakaladığını göstermektedir.
 
 •	ROC–AUC Analizi: Test seti üzerinde yapılan ROC analizi, modelin sınıflar arasındaki ayrımı ne kadar iyi yaptığını göstermiştir. Elde edilen AUC değeri, modelin genel başarı performansını yüzdesel olarak ortaya koymuştur.
+
 
 EKLER
 
@@ -38,9 +40,11 @@ Proje yalnızca CNN tabanlı bir modelden ibaret olmayıp, aynı zamanda deneyse
 
 Bu ek çalışmalar sayesinde, proje yalnızca bir araştırma deneyi olmaktan çıkıp, uçtan uca çalışan bir sistem haline gelmiştir. Eğitim sürecinden elde edilen model, basit bir kullanıcı arayüzü ile gerçek dünyada test edilebilir hale getirilmiştir.
 
+
 SONUÇ
 
 Bu proje kapsamında, CNN tabanlı bir derin öğrenme modeli geliştirilerek yüz ifadelerinin sınıflandırılması gerçekleştirilmiştir. Eğitim ve test süreçlerinden elde edilen doğruluk oranları, CNN mimarisinin görsel veriler üzerinde güçlü bir performans sunduğunu bir kez daha ortaya koymuştur. Eğitim süresince gözlemlenen kayıp ve doğruluk grafiklerinden, modelin başarılı bir şekilde öğrenme gerçekleştirdiği ve genelleme yeteneği kazandığı görülmüştür.
+
 
 GELECEK ÇALIŞMALAR
 
@@ -57,6 +61,7 @@ Projenin mevcut haliyle tatmin edici sonuçlar üretmesine rağmen, geliştirilm
 •	Gerçek Dünya Kullanımı: Eğitim, sağlık, güvenlik gibi farklı sektörlerde yüz ifadesi tanıma tabanlı uygulamalar için prototip sistemler geliştirilebilir.
 
 Bu proje, sadece teknik bir deney değil, aynı zamanda gelecekteki yapay zekâ tabanlı çözümler için temel bir adım olma potansiyeline sahiptir. Bootcamp sonrasında da bu çalışma geliştirilmeye devam edilecek ve yeni özellikler eklenerek daha kapsamlı bir hale getirilecektir.
+
 
 Çalışma kaggle linki: https://www.kaggle.com/code/ilknurzgen/akbank-derin-renme-bootcamp-ifade-tahmin-modeli
 
